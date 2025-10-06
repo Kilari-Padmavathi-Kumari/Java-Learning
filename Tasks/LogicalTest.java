@@ -1,13 +1,18 @@
 public class LogicalTest
 {
-    public static void main(String[] args) {
-        int a=-1;
+    static void isNegativeOne(int a)
+    {
         if(a != -1)
         {
             System.err.println("abc");
         }
-        else{
+        else
+        {
           System.err.println("virat");
         }
+    }
+    public static void main(String[] args) {
+        int a=-1;
+        isNegativeOne(a);
     }
 }
