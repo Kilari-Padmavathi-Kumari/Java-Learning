@@ -1,8 +1,3 @@
-
-
-
-
-
 public class Name 
 {
     static String resolveName(int a,int b)

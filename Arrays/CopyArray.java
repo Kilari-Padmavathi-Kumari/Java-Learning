@@ -5,11 +5,11 @@ public class CopyArray {
         int arr1[] = {1, 2, 3, 4, 5};
         int arr2[] = new int[arr1.length];
 
-        //for (int i = 0; i < arr1.length; i++) {
-          //  arr2[i] = arr1[i];
-        //}
+        for (int i = 0; i < arr1.length; i++) {
+         arr2[i] = arr1[i];
+        }
 
-        System.out.println("Copied Array:");
+        System.out.println("Copied Array:"+ arr2);
         for (int i : arr2) {
             System.out.print(i + " ");
         }
