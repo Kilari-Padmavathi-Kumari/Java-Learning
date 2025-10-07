@@ -9,7 +9,7 @@ public class CopyArray {
          arr2[i] = arr1[i];
         }
 
-        System.out.println("Copied Array:"+ arr2);
+        System.out.println("Copied Array:");
         for (int i : arr2) {
             System.out.print(i + " ");
         }
