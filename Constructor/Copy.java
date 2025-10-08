@@ -14,9 +14,9 @@ class Copy
         System.out.println("hello copy");
     }
     public static void main(String[] args) {
-       @SuppressWarnings("unused")
-       Copy obj=new Copy(new Copy());
-       @SuppressWarnings("unused")
-       Copy obj1=new Copy(3); 
+     
+       new Copy(3);
+  
+       Copy obj1=new Copy(new Copy()); 
     }
 }

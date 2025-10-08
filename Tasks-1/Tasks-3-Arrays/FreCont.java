@@ -2,7 +2,7 @@ public class FreCont
 {
     public static void main(String[] args) {
         String str="padma & hello";
-        int[] freq=new int[256];
+        int[] freq=new int[256];                          //256 used for ASCII values
         for(int i=0;i<str.length();i++)
         {
             freq[str.charAt(i)]++;

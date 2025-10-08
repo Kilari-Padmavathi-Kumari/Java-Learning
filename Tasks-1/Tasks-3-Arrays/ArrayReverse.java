@@ -27,6 +27,6 @@ public class ArrayReverse
         left++;
         right--;
        }
-       System.err.println(arr);
+       System.err.println(Arrays.toString(arr));
    }   
 }

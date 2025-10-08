@@ -14,7 +14,7 @@
 }*/
 
 
-class Student {
+/*class Student {
     String name;
     int age;
     Student(String n, int a) {
@@ -31,4 +31,51 @@ public class Parameter {
         System.out.println(s1.name + " " + s1.age);
         System.out.println(s2.name + " " + s2.age);
     }
+}*/
+
+
+class A
+{
+    A()
+    {
+        System.err.println("I am default con");
+    }
+    A(int a,String b)
+    {
+        new A();
+        System.err.println("I am para Con");
+        System.err.println(a);
+        System.err.println(b);
+    }
 }
+public class Parameter
+{
+    public static void main(String[] args) {
+       // A obj=new A();
+        //new A(10,"padma");
+        A obj=new A(10,"padma");
+    }
+}
+
+
+
+/*class A
+{
+    A()
+    {
+        System.err.println("I am default con");
+    }
+    A(int a,String b)                                                        //default con calling in side the para con
+    {
+        new A();
+        System.err.println("I am para Con");
+        System.err.println(a);
+        System.err.println(b);
+    }
+}
+public class Parameter
+{
+    public static void main(String[] args) {
+        A obj=new A(10,"padma");
+    }
+}*/
