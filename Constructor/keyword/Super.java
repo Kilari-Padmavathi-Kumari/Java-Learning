@@ -68,5 +68,13 @@ class Super extends A
         Super obj=new Super();
         System.err.println(obj.m2(3));
     }
+
+    public float getA() {
+        return a;
+    }
+
+    public void setA(float a) {
+        this.a = a;
+    }
 }
 
