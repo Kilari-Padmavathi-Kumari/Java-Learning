@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 public class Switchcase
 {
     public static void main(String[] args) {
@@ -32,6 +32,29 @@ public class Switchcase
                 dayname="invalid";
             
         }
+        System.out.print(dayname);
+    }
+}*/
+
+
+
+import java.util.*;
+public class Switchcase
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        String dayname;
+        dayname = switch (n) {
+            case 1 -> "mon";
+            case 2 -> "tue";
+            case 3 -> "wed";
+            case 4 -> "thur";
+            case 5 -> "fri";
+            case 6 -> "sat";
+            case 7 -> "sun";
+            default -> "invalid";
+        };
         System.out.print(dayname);
     }
 }

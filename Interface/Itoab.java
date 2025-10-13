@@ -27,7 +27,6 @@ class Itoab extends A implements I
         Itoab obj=new Itoab();
         obj.bird();
         obj.dog();
-        
         obj.pig();
     }
 }
