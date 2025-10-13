@@ -1,3 +1,4 @@
+
 interface Payment
 {
     public abstract void AddAmount(double amount);
