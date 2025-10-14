@@ -1,11 +1,5 @@
 
-interface Payment
-{
-    public abstract void AddAmount(double amount);
-    public abstract void withdrawAmount(double amount);
-}
-
-class PhonePe implements Payment{
+public class PhonePe implements Payment{
     double balance=500;
     public void AddAmount(double amount)
     {
@@ -24,9 +18,6 @@ class PhonePe implements Payment{
         else
         System.err.println("hello low balance you cannot withdraw");
     }
-}
-
-public class Main{
     public static void main(String[] args) {
         PhonePe obj=new PhonePe();
         obj.AddAmount(1000);
