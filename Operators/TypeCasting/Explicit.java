@@ -3,7 +3,7 @@ public class Explicit
     public static void main(String[] args) {
         float a = 2.3f;
         int num=(int) a;
-        System.err.println(num);   
+        System.err.println(num);
     }
 }
 

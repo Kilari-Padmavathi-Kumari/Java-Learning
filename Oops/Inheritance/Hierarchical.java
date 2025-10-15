@@ -1,4 +1,4 @@
-class A 
+class A
 {
     void dog()
     {
@@ -13,7 +13,7 @@ class A
     }
  }
 
- public class Hierarchical extends A 
+ public class Hierarchical extends A
  {
     void pig()
     {
@@ -28,4 +28,4 @@ class A
         obj1.pig();
         obj1.dog();
     }
- } 
+ }

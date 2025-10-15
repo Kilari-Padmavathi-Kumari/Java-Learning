@@ -12,14 +12,14 @@ interface I2
      }
 }
 interface I3
-{ 
+{
     default float methodI3(int a)
     {
         System.err.println("interface I3 value : "+a);
         return a;
     }
 }
-abstract class Abs 
+abstract class Abs
 {
       long l=234567;
       static boolean b=true;

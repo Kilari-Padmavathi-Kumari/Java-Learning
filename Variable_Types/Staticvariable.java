@@ -1,4 +1,4 @@
-class Nonstaticvariable
+class staticvariable
 {
     static String name;
     static int age;

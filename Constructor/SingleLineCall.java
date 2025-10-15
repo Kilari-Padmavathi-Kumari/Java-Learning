@@ -7,7 +7,7 @@ class Main{
     Main(int a, int b)
     {
         new Main();                                        // para con calling def con
-        System.err.println("I am Para con");            
+        System.err.println("I am Para con");
         System.err.println("para con val :"+a);
         System.err.println("para con val :"+b);
     }

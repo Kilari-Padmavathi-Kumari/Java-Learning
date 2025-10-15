@@ -8,7 +8,7 @@ public class RotateArray
         
         for(int r=0;r<k;r++)                                     //this loop used for rotation
         {
-           int last=arr[n-1];                                     
+           int last=arr[n-1];
             for(int i=n-1;i>0;i--)
             {
                 arr[i]=arr[i-1];

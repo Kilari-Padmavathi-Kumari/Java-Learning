@@ -1,9 +1,9 @@
-interface I 
+interface I
 {
      float method(int a);                       // by default public abstract
 }
 interface I1
-{ 
+{
      static int itMethod(int a)   // interface we have static and default method also present(using static & default keyword) 
      {
         System.err.println(a);

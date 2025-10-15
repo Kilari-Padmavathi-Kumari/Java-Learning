@@ -33,7 +33,7 @@ class MethodDefault extends Abs implements  I,I1
     }
     public static void main(String[] args) {
         MethodDefault obj=new MethodDefault();
-        System.err.println(obj.method(1)); 
+        System.err.println(obj.method(1));
         System.err.println(obj.newMathod());
         System.err.println(obj.abMethod(1.2f));
         System.err.println(obj.itMethod(2));

@@ -1,4 +1,4 @@
-class A 
+class A
 {
     void dog()
     {
@@ -12,7 +12,7 @@ class B extends A
         System.out.println("cat running from class B");
     }
 }
-class Multilevel extends B 
+class Multilevel extends B
 {
     void pig()
     {

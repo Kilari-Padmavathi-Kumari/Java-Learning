@@ -20,7 +20,7 @@
 
 public class Default {
     public static void main(String[] args) {
-        Student s = new Student();  
+        Student s = new Student();
         System.out.println(s.name);                                  //default value null
         System.out.println(s.age);                                   //default value 0
     }

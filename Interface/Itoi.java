@@ -31,7 +31,7 @@ interface B
  
     abstract void bird();
 }
-class Itoi implements A,B 
+class Itoi implements A,B
 {
     @Override
     public void  dog()

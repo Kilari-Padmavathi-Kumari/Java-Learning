@@ -16,11 +16,11 @@
     }
 
     public void setAge(int age) {
-        if(age > 0) 
+        if(age > 0)
         {
             this.age = age;
-        } 
-        else 
+        }
+        else
         {
             System.out.println("Age must be positive!");
         }
@@ -34,7 +34,7 @@ public class Encapsu {
         s.setAge(20);
         System.out.println("Student Name: " + s.getName());
         System.out.println("Student Age: " + s.getAge());
-        s.setAge(-5); 
+        s.setAge(-5);
     }
 }*/
 

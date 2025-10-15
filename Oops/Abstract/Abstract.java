@@ -8,7 +8,6 @@ abstract class A
      }
 }
 class B extends A {
-    @Override
     void program(int a) {
         System.out.println("i am program variable a :"+a);
         System.err.println("hello");
@@ -21,9 +20,9 @@ public class Abstract {
         B obj = new B();
         System.err.println("start");
         System.err.println("next given int value");
-        obj.program(sc.nextInt());  
+        obj.program(sc.nextInt());
         System.err.println("process");
         System.err.println("next given float value2");
-        obj.program2(sc.nextFloat()); 
+        obj.program2(sc.nextFloat());
     }
 }

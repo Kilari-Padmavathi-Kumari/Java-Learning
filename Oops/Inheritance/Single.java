@@ -1,4 +1,4 @@
-class A 
+class A
 {
     int a=10;
     void eat()
@@ -15,7 +15,7 @@ public class Single extends A
         System.err.println("running from SingleInh");
         System.err.println(a);
         System.err.println(super.a);
-    }    
+    }
     public static void main(String[] args) {
         Single obj=new Single();
         obj.run();
