@@ -20,8 +20,8 @@ public class Abstractcls {
         Scanner sc = new Scanner(System.in);
         B obj = new B();
         System.err.println("start");
-        obj.m1(sc.nextInt());  
+        obj.m1(sc.nextInt());
         System.err.println("process");
-        obj.m2(sc.nextFloat()); 
+        obj.m2(sc.nextFloat());
     }
 }

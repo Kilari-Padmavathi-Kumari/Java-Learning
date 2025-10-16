@@ -1,0 +1,4 @@
+interface Vehicle
+{
+    void vehicle();
+}

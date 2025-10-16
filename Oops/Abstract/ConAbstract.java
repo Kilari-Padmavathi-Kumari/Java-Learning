@@ -21,6 +21,7 @@ class Con extends Abs
      {
         super(1.2f);                         // in abstract method parent class con must be calling in child class con (not in methods )
      }
+     @Override
        float add(float a,float b)
     {
         System.err.println("add value a : "+a);

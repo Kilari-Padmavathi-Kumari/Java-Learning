@@ -21,6 +21,7 @@ abstract class Abs
 }
 class MethodDefault extends Abs implements  I,I1
 {
+    @Override
     public float method(int a)
     {
         System.err.println(a);
