@@ -1,4 +1,4 @@
-interface Playable
+public interface Playable
 {
     public abstract void play();
     default void method()

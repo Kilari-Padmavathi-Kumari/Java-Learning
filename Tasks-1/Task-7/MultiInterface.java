@@ -1,15 +1,16 @@
-interface Employee
+public interface Employee
 {
      void employee();
 }
-interface Manager
+public interface Manager
 {
     void manager();
 }
-interface Developer
+public interface Developer
 {
     void developer();
 }
+
 public class MultiInterface implements Employee,Manager,Developer
 {
     public void employee()

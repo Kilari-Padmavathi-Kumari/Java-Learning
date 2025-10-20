@@ -1,4 +1,4 @@
-interface Vehicle
+public interface Vehicle
 {
     void vehicle();
 }
