@@ -6,7 +6,7 @@ class EncapUsingScan
     private String name="padma";
     public void setAge(int age)
     {
-        this.age=age;
+        this.age = age;
     }
     public int getAge()
     {
@@ -14,7 +14,7 @@ class EncapUsingScan
     }
     public void setName(String name)
     {
-        this.name=name;
+        this.name = name;
     }
     public String getName()
     {
